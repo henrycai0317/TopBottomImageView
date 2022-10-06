@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FitScaleTypeImageView">
+        <attr name="fitScaleType" format="enum">
+            <enum name="fitTop" value="0" />     <!--向上固定-->
+            <enum name="fitBottom" value="1" />  <!--向下固定-->
+            <enum name="fitCenter" value="2" />  <!--中間固定-->
+        </attr>
+    </declare-styleable>
+</resources>
